@@ -1,0 +1,14 @@
+url='https://bigcharts.market'
+url2='watch.com/quickmarket/q'
+url3='quickchart.asp?symb=$1'
+#split up the url because there was too many chars
+#$1 = 1st argument
+wget -q -O -$url$url2$url3 | tr '\n' ' ' |sed 'sZ|^.*Last:<span>||' |
+sed 's|</div>||'#wget connects to the web and -O prints the page src
+echo
+
+#q prevents it from printing connecting
+#tr to change lines to spaces
+#pipe to delete everything after </div>
+#pipe it to delete everything before <div> which leaves you with the price
+#echo to put a new line after the price
