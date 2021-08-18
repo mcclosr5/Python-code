@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+
+import sys
+
+a = []
+def qnou(a):
+    w = w.replace("qu", "--")
+    return "q" in w
+def main():
+    for words in sys.stdin:
+        if qnou(words.lower()):
+            a.append(words.strip())
+        print("Words with q but no u:", a)
+
+if __name__ == '__main__':
+    main()

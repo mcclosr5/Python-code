@@ -1,0 +1,36 @@
+1(a)
+Syntax error i = i + i
+1(b)
+Print the smallest numbers.
+1(c)
+While i <= len(a).
+while i < len[a]
+i = i + i
+2(a)
+1:String
+2:String
+3:Integer
+4:boolean
+5:none
+2(b)
+Spanish
+spanish expects
+2
+false
+none
+2(c)
+A value thats written exactly as it should be interpreted.
+4(a)
+2 4 5 25 16 9 22 18 13 8 20 29
+4(b)
+18 20 25 29 16 9 22 4 13 8 5 2
+4(c)
+Best O(1)
+Worst O(n)
+average O(n)
+4(d)
+Worst O(logn)
+Average O(logn)
+Best O(1)
+4(e)
+10
