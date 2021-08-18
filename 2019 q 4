@@ -1,0 +1,11 @@
+#!/usr/bin/env python
+q:4(a)
+5,6,7,9,10,11,12,15
+4(b)
+7,9,10,12,15,11,5,6
+4(c)
+It finds the smallest number in the list and swaps the first element in the list with it if its smaller than the first element. And so on until the entire list is sorted.
+4(d)
+It removes one element from the list and finds the appropriate location within the sorted list and inserts it there.
+4(e)
+If the size of list a is relatively small.
