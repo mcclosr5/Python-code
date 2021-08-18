@@ -1,0 +1,13 @@
+Application layer:The layer thats closest to the end user. This is the layer that users interact closest with. Eg: Skype, google or other web browsers/ applications.
+
+Presentation layer:The layer that is independent of data representation at the application layer. It presents data for the application or network.
+
+Session layer:When two computers or servers need to 'talk' to eachother a session needs to be created. Functions at this layer include setup, coordination and termination between the applications at the end of each session.
+
+Transport layer: Deals with the coordination of data between end systems and hosts.TCP(Transmission control protocol) is the best example of the transport layer.
+
+Network layer:Where youll find most of the router functionality. Its most responsible for packet forwarding.
+
+Data Link layer:Provides node to node data transfer and also handles error connection from the physical layer. MAC layer and llc layer also exist here as sub layers.
+
+Physical layer:Represents the electrical and physical layers of the system.This can include the cable type, radio frequency link etc.
